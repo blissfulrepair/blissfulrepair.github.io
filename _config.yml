@@ -9,16 +9,12 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Dalton Bliss
   pic: 1
-  position: Lead Designer
+  position: Owner/Lead Repair Technician
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: # 
+      url: https://facebook.com/blissfulrepair
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -26,9 +22,8 @@ social:
     url: https://facebook.com/blissfulrepair
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+address: 
+  - line: Longmont, CO, 80501
 
 # reviews
 reviews:
