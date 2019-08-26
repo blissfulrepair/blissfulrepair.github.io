@@ -33,8 +33,11 @@ address:
 # reviews
 reviews:
   - review1:
+    text:
   - review2:
+    text:
   - review3:
+    text:
 # Build settings
 markdown: kramdown
 permalink: pretty
