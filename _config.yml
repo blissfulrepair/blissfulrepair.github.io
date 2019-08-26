@@ -3,14 +3,10 @@ baseurl: /
 
 # Site settings
 title: Blissful Repair
-email: blissfulrepair@gmail.com 
+email: dalton@blissfulrepair.com 
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-# reviews
-reviews:
-- review1: Killer warranty, came to me on my schedule and was very flexible and honest with prices. Thanks guys! 
-- review2: Great tech,does a good job with delicate repairs.
-- review3: The major convenience of him coming to you is a huge plus.
+
 # Team names, titles and social links
 people:
 - name: Kay Garland
@@ -22,29 +18,7 @@ people:
     - title: facebook
       url: #
     - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: # 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -56,6 +30,11 @@ address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 
+# reviews
+reviews:
+  - review1:
+  - review2:
+  - review3:
 # Build settings
 markdown: kramdown
 permalink: pretty
