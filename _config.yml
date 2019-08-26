@@ -6,7 +6,11 @@ title: Blissful Repair
 email: blissfulrepair@gmail.com 
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-
+# reviews
+reviews:
+- review1: Killer warranty, came to me on my schedule and was very flexible and honest with prices. Thanks guys! 
+- review2: Great tech,does a good job with delicate repairs.
+- review3: The major convenience of him coming to you is a huge plus.
 # Team names, titles and social links
 people:
 - name: Kay Garland
