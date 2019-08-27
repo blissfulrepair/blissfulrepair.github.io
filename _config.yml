@@ -27,12 +27,12 @@ address:
 
 # reviews
 reviews:
-  - review1:
-    text:
-  - review2:
-    text:
-  - review3:
-    text:
+  - review1: August 11, 2019
+    text: Killer warranty, came to me on my schedule and was very flexible and honest with prices. Thanks guys!
+  - review2: July 16, 2019
+    text: Great tech, does a good job with delicate repairs.
+  - review3: July 16, 2019
+    text: The convenience of him coming to you is a major plus.
 # Build settings
 markdown: kramdown
 permalink: pretty
