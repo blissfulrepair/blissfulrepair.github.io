@@ -1,5 +1,5 @@
  <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" | prepend: site.baseurl }}"></script>
     <!-- slick slider -->
     <script type="text/javascript" src={{ "/slick/slick/slick.min.js" | prepend: site.baseurl }}></script> 
     <!-- Bootstrap Core JavaScript -->
@@ -22,9 +22,7 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $(".review").slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
+        $(".review").slick({ 
           autoplay: true,
           autoplaySpeed: 3000,
           dots: true
