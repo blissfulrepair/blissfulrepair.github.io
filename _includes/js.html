@@ -10,8 +10,7 @@
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script> 
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
@@ -22,8 +21,10 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $(".review").slick({
-          acessibility: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 3000
+          autoplaySpeed: 3000,
+          dots: true
         });
       });
