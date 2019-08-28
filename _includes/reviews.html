@@ -6,9 +6,9 @@
         <h3 class="section-subheading text-muted">Read what our customers are saying</h3>
       
      
-      <div class="review">
+      <div class="panel review">
         {% for review in site.reviews %}
-          <div> {{ review.text }} </div>
+        <div><h4> {{ review.text }}</h4></div>
         {% endfor %}
       </div>
     
