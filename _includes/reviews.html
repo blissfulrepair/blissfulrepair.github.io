@@ -5,11 +5,13 @@
         <h2 class="section-heading">Reviews</h2>
         <h3 class="section-subheading text-muted">Read what our customers are saying</h3>
       
-      {% for review in site.reviews %}
+     
       <div class="panel review">
-        <div><h4> {{ review.text }} </h4></div>
+        {% for review in site.reviews %}
+          <div><h4> {{ review.text }} </h4></div>
+        {% endfor %}
       </div>
-      {% endfor %} 
+    
 
     </div>
   </div>
