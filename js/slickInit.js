@@ -1,4 +1,4 @@
-    <script type="text/javascript">
+ 
       $(document).ready(function(){
         $(".panel.review").slick({
           autoplay: true,
